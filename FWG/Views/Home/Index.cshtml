@@ -1,0 +1,120 @@
+﻿<!-- Carousel
+    ================================================== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="~/Images/MPET.jpg" alt="First slide" style="opacity: .8;">
+            <div class="container">
+                <div class="carousel-caption" >
+                    <h1 style="color: black; font-weight:400; background-color: rgba(217, 220, 224, .05); text-shadow: 2px 2px 5px white; ">MPET.Net</h1>
+                    <p></p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/Images/MPETWEB.jpg" alt="Second slide" style="opacity: .8;">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 style="color: black; font-weight:400; background-color: rgba(217, 220, 224, 0.05); text-shadow: 2px 2px 5px white;">M-PET.Net Web</h1>
+                    <p></p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/Images/MpetGo.jpg" alt="Third slide" style="opacity: .8;">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 style="color: black; font-weight:400; background-color: rgba(217, 220, 224, 0.05); text-shadow: 2px 2px 5px white;">MPET GO</h1>
+                    <p></p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!-- /.carousel -->
+<!-- Marketing messaging and featurettes
+    ================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="img-circle" src="~/Images/CodePicture.jpeg" alt="">
+            <h2>What We Do</h2>
+            <p>Four Winds Group Inc. doesn't just focus all our resources on M-PET, we can create custom, made to order Applications as well. Maybe you want a Website that you can use from multiple Workstations to access Information on a Central Database, we can do that. Maybe you want an Application on a PDA or Tablet Computer that you can use out in the field, we can do that too. Bottom line is, whatever Software you require, Four Winds Group Inc. can deliver it to you.
+What happens when you have an existing system in place for basic Job Creation or Asset Tracking that you can't change for whatever reason but you'd like to use M-PET? Let our IT staff come up with a plan and create a custom interface to import the information from your existing systems right into M-PET where subsequent actions will take place. This solves all your problems by letting you continue using your Legacy Systems while taking advantage of all of M-PET's great Features and Benefits.</p>
+            <p><a class="btn btn-lg btn-primary" href="@Url.Action("Product","Product")" role="button">Product Info &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="img-circle" src="~/Images/handshake.jpg" alt="Generic placeholder image" >
+            <h2>Who we are</h2>
+            <p>We are a full service Software Company specializing in Computer Maintenance Managment Systems (CMMS). Weather you are looking to host a cloud database or need a full operating system we are there.</p>
+            <p><a class="btn btn-lg btn-primary" href="@Url.Action("Employees","Company")" role="button">Check out our Team &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="img-circle" src="~/Images/ThinkOutsideBox.jpg" alt="Generic placeholder image">
+            <h2>How we got here</h2>
+            <p>Starting as a DOS based program, MPET has grown into a multiplatform Computerized Maintenance Managment System.</p>
+            <p><a class="btn btn-lg btn-primary" href="@Url.Action("History","History")" role="button">View History</a></p>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+    <h2>Client Stories</h2>
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Washington State Ferries <span class="text-muted">It'll blow your mind.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive" src="~/Images/WSF.jpg" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive" src="~/Images/tunnel.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+            <h2 class="featurette-heading">H3 Tunnel <span class="text-muted">See for yourself.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div  class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Lindt Chocolate <span class="text-muted">Checkmate.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive" src="~/Images/Lindt.jpg" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+    <!-- FOOTER -->
+    <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017 Four Winds Group, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+
+</div><!-- /.container -->

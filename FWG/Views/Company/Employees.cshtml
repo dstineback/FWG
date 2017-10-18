@@ -1,0 +1,104 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active" >
+       
+                        
+                    <div class="container" >
+                        <div class="carousel-caption">
+                            <div class="employee-img" style="background-image:url(/images/JonPicPlane.jpg); height: 170px;
+ width:170px; 
+ position:center; 
+ display:inline-block; 
+ border-radius: 50%;"></div>
+                            <h1>Jon Mangerich</h1>
+                            <p>Looses his hat.</p>                          
+                            <p><a class="btn btn-lg btn-primary" href="mailto:mangerichj@fwginc.com" role="button">email Jon Mangerich</a></p>
+                        </div>
+                    </div>
+                
+            </div>
+                <div class="item">
+                    @*<*@img src="~/Images/Cecil.png" alt="Second slide" style="max-width: 100%; height:auto;">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <div class="employee-img" style="background-image:url(/Images/TomHamm.jpg); height: 170px;
+ width:170px; 
+ position:center; 
+ display:inline-block; 
+ border-radius: 50%;"></div>
+                            <h1>Tom Hamm</h1>
+                            <p>He likes wine.</p>
+                            
+                            <p><a class="btn btn-lg btn-primary" href="mailto:hammt@fwginc.com" role="button">email Tom Hamm</a></p>
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="item">
+                @*<img src="~/Images/abe.png" alt="Third slide" style="max-width: 100%; height:auto;">*@
+                <div class="container">
+                    <div class="carousel-caption">
+                        <div class="employee-img" style="background-image:url(/Images/TMT.jpg); height: 170px;
+ width:170px; 
+ position:center; 
+ display:inline-block; 
+ border-radius: 50%;"></div>
+                        <h1>Tom Thompson</h1>
+                        <p>Smart Ass</p>                       
+                        <p><a class="btn btn-lg btn-primary" href="mailto:thompsont@fwginc.com" role="button">email Tom Thompson</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                @*<img src="~/Images/Krusty.png" style="max-width: 100%; height:auto;" alt="Third slide">*@
+                <div class="container">
+                    <div class="carousel-caption">
+                        <div class="employee-img" style="background-image:url(/Images/JeremyDillow.jpg); height: 170px;
+ width:170px; 
+ position:center; 
+ display:inline-block; 
+ border-radius: 50%;"></div>
+                        <h1>Jeremy Dillow</h1>
+                        <p>Slowly turning into Ian.</p>
+                        <p><a class="btn btn-lg btn-primary"  href="mailto:dillowj@fwginc.com" role="button">email Jeremy Dillow</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                @*<img src="~/Images/Barny.png" style="max-width: 100%; height:auto;" alt="Third slide">*@
+                <div class="container">
+                    <div class="carousel-caption">
+                        <div class="employee-img" style="background-image:url(/Images/Dstineback.jpg); height: 170px;
+ width:170px; 
+ position:center; 
+ display:inline-block; 
+ border-radius: 50%;"></div>
+                        <h1>Dan Stineback</h1>
+                        <p>He likes Beer.</p>
+                        <p><a class="btn btn-lg btn-primary" href="mailto:stinebackd@fwginc.com" role="button">email Dan Stineback</a></p>
+                        @*<p><button class="btn-primary">@Html.ActionLink("Email", "Email", "Email")</button></p>*@
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+ 
+</div>
