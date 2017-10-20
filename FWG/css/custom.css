@@ -2,3 +2,11 @@
     padding-top: 50px;
     padding-left: 10px;
 }
+
+.question{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: mediumblue;
+    text-underline-position:alphabetic;
+    text-decoration-style:solid;
+    font-style:italic;
+}

@@ -167,6 +167,7 @@
     <Compile Include="Controllers\HistoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\IndustriesController.cs" />
+    <Compile Include="Controllers\JavascriptResult.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -237,6 +238,7 @@
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\carousel.css" />
+    <Content Include="css\custom.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -333,6 +335,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\mpetweb - Web Deploy.pubxml" />
+    <Content Include="Views\Email\SignUpView.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

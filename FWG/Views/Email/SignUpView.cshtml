@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Email";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Signup</h2>
+
+@using (Html.BeginForm("SignUp", "Email", FormMethod.Post))
+{
+    //string from, string number, string email, string company, string comments
+    <div class="container-fluid">
+        <input id="company" type="text" required name="company" class="input-group-lg" />
+    </div>
+    <div class="container-fluid">
+        <input id="contactNumber" required name="contactNumber" type="text" class="input-group-lg" />
+    </div>
+
+    <div style="padding: 25px; margin:10px 10px; border:2px solid lightgrey;">
+        <div class="container-fluid" style="padding: 10px;">
+            <input id="from" type="text" required name="from" placeholder="You name" class="input-group-lg" style="padding: 10px;" />
+        </div>
+        <div class="container-fluid" style="padding: 10px;" title="Email Address">
+            <input id="email" required name="email" type="email" placeholder="Email Address" class="input-group-lg" style="padding: 10px;" /><br />
+        </div>
+        
+        <div class="container-fluid" style="padding:25px;">
+            <textarea id="comments" required name="comments" wrap="soft" placeholder="Comments" style="width: 95%; padding: 10px;" class="text-info" rows="2" cols="20"></textarea>
+        </div>
+        <div style="padding: 25px;">
+            <input type="submit" value="Submit" class="btn-primary" />
+        </div>
+        @if (TempData["messageSuccess"] != null)
+        {
+            <p class="alert-success" style="width: 200px; text-align:center;">@TempData["messageSuccess"]</p>
+        }
+
+        @if (TempData["messageError"] != null)
+        {
+            <p class="alert-danger" style="width: 200px; text-align:center;">@TempData["messageError"]</p>
+        }
+    </div>
+}
